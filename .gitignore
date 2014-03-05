@@ -7,3 +7,6 @@ composer.lock
 .DS_Store
 Thumbs.db
 .env.local.php
+.idea
+.vagrant
+Vagrantfile
