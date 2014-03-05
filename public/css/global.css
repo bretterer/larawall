@@ -1,0 +1,139 @@
+html, body {
+    height:100%;
+    width:100%;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHklEQVQIW2P4//+/MBQzgDAICEMxXAAMYCoRIlCVANL6FYTYi5d+AAAAAElFTkSuQmCC);
+    background-position: center -100px; /* 71px */
+    background-repeat: repeat, no-repeat;
+    background-color: #008999;
+}
+
+.fullscreen {
+    height:100%;
+    width:100%;
+    overflow:hidden;
+    background:none;
+}
+
+.left, .right {
+    height:100%;
+    overflow:hidden;
+}
+
+
+/****************/
+/*** SESSIONS ***/
+/****************/
+.sessions {
+    min-height:60%;
+    background:rgba(0,0,0,0.5);
+    overflow:hidden;
+    position:relative;
+}
+
+    .session-group {
+        height:100%;
+        width:100%;
+        position:absolute;
+        display:none;
+    }
+
+        .session {
+            height:100%;
+            width:100%;
+            position:absolute;
+            background-size:cover;
+            background-position:50% 50%;
+            background-repeat:no-repeat;
+            display: none;
+        }
+
+        .session.show {
+            display: block;
+        }
+
+            .session-details {
+                position:absolute;
+                padding:10px 20px;
+                bottom:0px;
+                width:100%;
+                background: rgba(0,0,0,0.6);
+                color:#f8f8f8;
+                text-shadow: 0px 1px 1px #000000;
+            }
+
+                .session-details h4 {
+                    text-transform:uppercase;
+                }
+                .session-details h2 {
+                    margin:0px;
+                    font-size: 54px;
+                }
+                .session-details p {
+                    font-size: 24px;
+                }
+                .session-details small {
+                    font-size:16px;
+                }
+
+.sponsors {
+    position:relative;
+    height:40%;
+}
+    .sponsors > p {
+        background-color:rgba(255,255,255,0.5);
+        position:absolute;
+        padding:5px 20px;
+        top:0;
+        left:0;
+        border-bottom-right-radius: 5px;
+        font-size:18px;
+        z-index:10;
+    }
+
+    .sponsors .sponsor {
+        position:relative;
+        text-align:center;
+        padding-top:45px;
+        display:none;
+        height:100%;
+        line-height:100%;
+
+    }
+
+    .sponsors .sponsor img {
+        vertical-align:middle;
+    }
+
+    .sponsors .sponsor.show {
+        display:table-cell;
+    }
+
+
+.tweets {
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.tweets { font-size: 0.9em; }
+.tweets p { margin: 14px;}
+.tweets a:hover, .tweets a:active, .tweets a:focus, .tweets a { text-decoration: none; }
+.tweets a:hover { text-decoration: underline; }
+.tweets a img { border: 0; }
+.tweets li { padding: 0; margin: 0; list-style: none; margin: 10px; border-radius: 3px; }
+.tweet { clear: left; min-height: 48px; padding: 9px; line-height: 1; position: relative; }
+.tweets li.searchterm { font-size: 22px; padding: 20px 0; }
+.vcard { margin-top: 0px; float: left;}
+.hentry { margin-left: 58px; }
+.hentry .meta { font-size: 0.764em; margin: 3px 0 0; display: block; }
+.tweets { background-repeat: no-repeat; background-position: -200px 250px; padding-left: 0px; }
+
+/* twitter colours */
+.tweets a { color: rgba(255,255,255,0.7); }
+.hentry .meta, .tweets .meta a { color: #99CFD7; }
+.tweets li { background: rgba(255, 255, 255, 0.2); min-height: 65px; font-size: 18px;}
+.tweet { color: #fff; }
+
+.pic-wrapper { text-align:center; padding-bottom:10px}
+.pic { max-height:400px; width:95%;}
