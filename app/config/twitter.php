@@ -3,9 +3,9 @@
 return [
     'query2' => '(from:@daytonwp OR @daytonwp OR #wcdayton OR (#wcdayton AND #bingo) ) AND exclude:retweets',
     'query' => '#LittleCouple exclude:retweets',
-    'consumer_key'      => getenv('twitter_apikey'),
-    'consumer_secret'   => getenv('twitter_apisecret'),
-    'token'             => getenv('twitter_accesstoken'),
-    'token_secret'      => getenv('twitter_accesstokensecret'),
+    'consumer_key'      => getenv('TWITTER_APIKEY'),
+    'consumer_secret'   => getenv('TWITTER_APISECRET'),
+    'token'             => getenv('TWITTER_ACCESSTOKEN'),
+    'token_secret'      => getenv('TWITTER_ACCESSTOKENSECRET'),
     'ignore_rt'         => true
 ];
