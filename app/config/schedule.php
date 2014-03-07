@@ -3,6 +3,7 @@
 return [
     [
         'data_time' => '0800',
+        'end_time' => '0900',
         'time' => '8:00 AM',
         "sessions" => [
             [
@@ -10,7 +11,7 @@ return [
                 "description" => "Welcome to #wcdayton",
                 "room" => "",
                 "track" => "",
-                "image" => ""
+                "image" => "http://2014.dayton.wordcamp.org/files/2014/01/wcday2014-badge-attending-large.jpg"
             ]
         ]
     ],
@@ -36,7 +37,7 @@ return [
                 "description" => "Cousin Vinnys",
                 "room" => "Lobby",
                 "track" => "",
-                "image" => ""
+                "image" => "http://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg"
             ]
         ]
     ],

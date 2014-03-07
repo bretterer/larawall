@@ -145,7 +145,7 @@ larawall.schedule.nextSchedule = function() {
     clearInterval(larawall.schedule.timer);
     clearInterval(larawall.schedule.rotation);
     larawall.schedule.showSchedule(keys[i]);
-    larawall.schedule.rotateScheduleGroup();
+//    larawall.schedule.rotateScheduleGroup();
 }
 
 larawall.schedule.previousSchedule = function() {
@@ -156,7 +156,7 @@ larawall.schedule.previousSchedule = function() {
     clearInterval(larawall.schedule.timer);
     clearInterval(larawall.schedule.rotation);
     larawall.schedule.showSchedule(keys[i]);
-    larawall.schedule.rotateScheduleGroup();
+//    larawall.schedule.rotateScheduleGroup();
 }
 
 larawall.schedule.rotateScheduleGroup = function() {
@@ -173,7 +173,7 @@ larawall.schedule.rotateScheduleGroup = function() {
 
         show();
         clearInterval(larawall.schedule.rotation);
-        larawall.schedule.rotation = setInterval(show, 3000);
+        larawall.schedule.rotation = setInterval(show, 4500);
     }
 }
 
@@ -199,6 +199,7 @@ larawall.schedule.showSchedule = function(due) {
         larawall.schedule.$schedules.hide();
         larawall.schedule.list[due].show();
         $('#schedule').attr('data-time', due);
+        larawall.schedule.rotateScheduleGroup();
     }
 }
 
