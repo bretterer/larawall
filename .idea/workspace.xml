@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="schedule.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="schedule.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/config/schedule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="29" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1736">
+            <state line="241" column="35" selection-start="9652" selection-end="9652" vertical-scroll-proportion="5.108508" vertical-offset="2605" max-vertical-offset="7840">
               <folding />
             </state>
           </provider>
@@ -50,15 +50,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bootstrap/start.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="40" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="2128">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,7 +62,7 @@
       <file leaf-file-name="larawall.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/larawall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="57" selection-start="6006" selection-end="6006" vertical-scroll-proportion="0.0" vertical-offset="4452" max-vertical-offset="8120">
+            <state line="175" column="57" selection-start="6006" selection-end="6006" vertical-scroll-proportion="0.0" vertical-offset="3892" max-vertical-offset="8120">
               <folding>
                 <marker date="1394163446000" expanded="true" signature="2784:2810" placeholder="..." />
               </folding>
@@ -79,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sessions.blade.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sessions.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/partials/sessions.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="12" selection-start="149" selection-end="155" vertical-scroll-proportion="0.10486891" vertical-offset="0" max-vertical-offset="801">
+            <state line="3" column="12" selection-start="149" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -147,8 +138,9 @@
         <option value="$PROJECT_DIR$/app/views/partials/sponsors.blade.php" />
         <option value="$PROJECT_DIR$/app/views/partials/sponsor.blade.php" />
         <option value="$PROJECT_DIR$/public/js/larawall.js" />
-        <option value="$PROJECT_DIR$/app/config/schedule.php" />
         <option value="$PROJECT_DIR$/app/views/partials/sessions.blade.php" />
+        <option value="$PROJECT_DIR$/app/config/schedule2.php" />
+        <option value="$PROJECT_DIR$/app/config/schedule.php" />
       </list>
     </option>
   </component>
@@ -236,24 +228,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.cratosdesign.tweetwall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.cratosdesign.tweetwall" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,7 +485,7 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/config/schedule2.php">
+    <entry file="file://$PROJECT_DIR$/app/config/schedule.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="37" selection-start="3126" selection-end="3126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2492">
           <folding />
@@ -746,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/schedule2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="37" selection-start="3089" selection-end="3129" vertical-scroll-proportion="0.92893404" vertical-offset="1452" max-vertical-offset="2492">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="43" selection-start="1953" selection-end="1953" vertical-scroll-proportion="0.0" vertical-offset="2072" max-vertical-offset="4060">
@@ -795,18 +762,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/larawall.js">
+    <entry file="file://$PROJECT_DIR$/app/views/partials/sessions.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="57" selection-start="6006" selection-end="6006" vertical-scroll-proportion="0.0" vertical-offset="4452" max-vertical-offset="8120">
-          <folding>
-            <marker date="1394163446000" expanded="true" signature="2784:2810" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/schedule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="29" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1736">
+        <state line="3" column="12" selection-start="149" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
@@ -818,9 +776,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/sessions.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/js/larawall.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="12" selection-start="149" selection-end="155" vertical-scroll-proportion="0.10486891" vertical-offset="0" max-vertical-offset="801">
+        <state line="175" column="57" selection-start="6006" selection-end="6006" vertical-scroll-proportion="0.0" vertical-offset="4452" max-vertical-offset="8120">
+          <folding>
+            <marker date="1394163446000" expanded="true" signature="2784:2810" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/schedule2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="109" selection-start="339" selection-end="420" vertical-scroll-proportion="0.46192893" vertical-offset="0" max-vertical-offset="1736">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/schedule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="241" column="35" selection-start="9652" selection-end="9652" vertical-scroll-proportion="5.108508" vertical-offset="2605" max-vertical-offset="7840">
           <folding />
         </state>
       </provider>
