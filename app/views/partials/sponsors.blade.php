@@ -1,4 +1,6 @@
 <div class="sponsors">
     <p>Sponsors:</p>
-    @include('partials.sponsor')
+    @foreach(Config::get('sponsors') as $sponsor)
+        @include('partials.sponsor')
+    @endforeach
 </div>
