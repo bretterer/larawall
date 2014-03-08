@@ -48,7 +48,7 @@ return [
             [
                 "title" => "Marc Benzakein",
                 "description" => "There’s No Place Like 127.0.0.1",
-                "room" => "Room 167",
+                "room" => "Room 154",
                 "track" => "Developer",
                 "image" => "http://1.gravatar.com/avatar/984914bb5883380eca5d7cdb8fd8ab89?s=700&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&r=G"
             ]
@@ -89,7 +89,7 @@ return [
             [
                 "title" => "Brian Retterer",
                 "description" => "git commit -m “My WordPress blog under version control”",
-                "room" => "Room 167",
+                "room" => "Room 154",
                 "track" => "Developer",
                 "image" => "http://0.gravatar.com/avatar/e18fbc1a81c7b4d2264e1fabdd241e15?s=700&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D96&r=G"
             ]
@@ -157,7 +157,7 @@ return [
             [
                 "title" => "Ben Byrne",
                 "description" => "Front-end Performance Optimization",
-                "room" => "Room 167",
+                "room" => "Room 154",
                 "track" => "Developer",
                 "image" => "http://1.gravatar.com/avatar/7c7212e5c1127458f0b14758d44f7ac4?s=700&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D100&r=G"
             ]
@@ -198,7 +198,7 @@ return [
             [
                 "title" => "John Hartley",
                 "description" => "Loops on Loops",
-                "room" => "Room 167",
+                "room" => "Room 154",
                 "track" => "Developer",
                 "image" => "http://0.gravatar.com/avatar/c47c6ee4a6a6d4db0f128d74aed12e5f?s=700&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D100&r=G"
             ]
@@ -239,7 +239,7 @@ return [
             [
                 "title" => "Ian Dunn",
                 "description" => "The Right Way to Customize a Plugin",
-                "room" => "Room 167",
+                "room" => "Room 154",
                 "track" => "Developer",
                 "image" => "http://1.gravatar.com/avatar/d0e2ea89fb62350b1304c62eeeaf24b6?s=700&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D100&r=G"
             ]
